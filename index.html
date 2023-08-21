@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norris Wang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-image" src="assets/images/intro-top-image.jpg" alt="" />
+      <div class="title-text">
+        <h1 class="main-title">I'm Norris Wang</h1>
+        <h2 class="subtitle">I'm changing careers.</h2>
+      </div>
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="selfie"
+          src="./assets/images/Norris.JPG"
+          alt="Norris Wang"
+        />
+        <h2>Welcome!</h2>
+        <p class="intro">
+          I live in Osaka, Japan. Aikido is my passion. I taught English, worked
+          in logistics, tested and translated (localization) Japanese games. Now
+          I'm switching careers by learning to code.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills</h2>
+
+        <div class="parent">
+          <div class="teaching-skill">
+            <h3>Teaching</h3>
+            <figure>
+              <img
+                src="./assets/images/teacher-img.jpg"
+                alt="teacher with students in a classroom"
+                height="200px"
+                width="300px"
+              />
+              <figcaption>photo credit: Kenny Eliason on Unsplash</figcaption>
+            </figure>
+            <p>
+              I spent 6 years teaching English in Japan to students at junior
+              high schools and elementary schools. Furthermore, I have been
+              teaching aikido as an instructor for over 7 years to learners
+              ranging from young children to senior citizens.
+            </p>
+          </div>
+
+          <div class="communication-skill">
+            <h3>Communication</h3>
+            <figure>
+              <img
+                src="./assets/images/sunset-and-positivity.jpg"
+                alt="sunset and positivity"
+                height="200px"
+                width="300px"
+              />
+              <figcaption>photo credit: Miguel Bruna on Unsplash</figcaption>
+            </figure>
+            <p>
+              We all like to think we're good communicators, but what makes
+              someone good at communication? Some people think talking over
+              others and doing whatever it takes to be heard makes for a good
+              communicator. My approach is to listen, process, then give my
+              thoughts in a reasoned, logical manner as opposed to rushing for
+              attention.
+            </p>
+          </div>
+
+          <h3>Coding</h3>
+          <p>I can use the following languages at a basic level.</p>
+          <div class="coding-skill container px-4 py-5" id="featured-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="col">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center fs-2 mb-3"
+                >
+                  <img
+                    class="language-icon"
+                    src="assets/images/HTML5_logo_and_wordmark.svg.png"
+                    alt="HTML5 logo"
+                  />
+                </div>
+                <h4 class="fs-2 text-body-emphasis">HTML</h4>
+                <p>
+                  I can create and layout websites that provide the basics you
+                  need to establish your presence on the Internet. The bulk of
+                  HTML is the content of the website, meaning the text and
+                  images, but can also encompass mark up text needed to create
+                  features such as navigation bars.
+                </p>
+              </div>
+
+              <div class="col">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center fs-2 mb-3"
+                >
+                  <img
+                  class="language-icon"
+                    src="assets/images/CSS3_logo_and_wordmark.svg.png"
+                    alt="CSS logo"
+                  />
+                </div>
+                <h4 class="fs-2 text-body-emphasis">CSS</h4>
+                <p>
+                  To make a website look better and match the image you're
+                  looking for, I can use CSS and the Bootstrap to do things such
+                  as brighten up and change the layout to give your website a
+                  cleaner look and make it more visually appealing.
+                </p>
+              </div>
+              <div class="feature col">
+                <div
+                  class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"
+                >
+                  <img
+                  class="language-icon"
+                    src="assets/images/Javascript_badge.svg.png"
+                    width="128px"
+                    alt=""
+                  />
+                </div>
+                <h4 class="fs-2 text-body-emphasis">Featured title</h4>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                  We'll add onto it with another sentence and probably just keep
+                  going until we run out of words.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="contact-me">
+          <h2>How To Reach Me</h2>
+          <h3>Do you want to learn aikido or need a website?</h3>
+          <p class="contact-message">
+            Interested in learning aikido, or need a website made? Let me know
+            and we might be able to work something out!
+          </p>
+          <form
+            action="mailto:wang.chance.works@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            Name:<br />
+            <input type="text" name="name" placeholder="Your Name" /><br />
+            Email:<br />
+            <input type="email" name="email" placeholder="Your Email" /><br />
+            Message:<br />
+            <textarea
+              name="body"
+              rows="10"
+              cols="40"
+              placeholder="Your Message"
+            ></textarea
+            ><br />
+            <input type="submit" value="Send" />
+            <input type="reset" value="Reset" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <footer>
+        <h3>Links</h3>
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/norris-wang-4232b344/"
+          >LinkedIn</a
+        >
+        <a class="footer-link" href="https://github.com/NorrisWang-web"
+          >Github</a
+        >
+        <a class="footer-link" href="https://www.aikikendojo.com">Aikido</a>
+        <p class="copyright">&copy Norris Wang</p>
+      </footer>
+    </div>
+  </body>
+</html>

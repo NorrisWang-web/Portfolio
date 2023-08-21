@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #d5f1f6;
+    font-family: Garamond, 'Times New Roman', serif;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #618685;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #618685;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #618685;
+    padding: 20px;
+}
+
+p {
+    line-height: 2;
+    font-size: 1.1rem;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: #618685;
+    margin: 10px 20px;
+}
+
+img {
+    overflow: clip;
+}
+
+hr {
+    border-top: 3px dotted #618685;
+    border-bottom: none;
+    width: 50%;
+    margin: 50px auto;
+}
+
+
+.top-container {
+    top: 0;
+    position: relative;
+
+}
+
+.main-title {
+    padding-top: 50px;
+}
+
+.subtitle {
+    padding-bottom: 10px;
+}
+
+.middle-container {
+    margin-bottom: 50px;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.language-icon {
+    height: 128px;
+    width: 128px;
+}
+
+.bottom-container {
+    padding: 20px 20px;
+    background-color: #d9ecd0;
+
+}
+
+.top-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 20%;
+}
+
+.selfie {
+    height: 250px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.copyright {
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 20px;
+}
+
+.py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 0!important;
+}
