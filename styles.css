@@ -9,6 +9,31 @@ div {
     display: block;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #d9ecd0;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #618685;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 2.5rem;
