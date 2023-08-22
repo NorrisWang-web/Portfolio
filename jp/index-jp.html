@@ -19,6 +19,13 @@
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
+    <div id="home" class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#welcome">Welcome</a>
+      <a href="#my-skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="../index.html">English</a>
+    </div>
     <div class="top-container">
       <img
         class="top-image"
@@ -34,6 +41,7 @@
     <div class="middle-container">
       <div class="profile">
         <img
+          id="welcome"
           class="selfie"
           src="../assets/images/Norris.JPG"
           alt="Norris Wang"
@@ -47,7 +55,7 @@
       </div>
       <hr />
       <div class="skills">
-        <h2>スキル</h2>
+        <h2 id="my-skills">スキル</h2>
 
         <div class="parent">
           <div class="teaching-skill">
@@ -59,7 +67,9 @@
                 height="200px"
                 width="300px"
               />
-              <figcaption>写真引用元：UnsplashのKenny Eliasonさんより</figcaption>
+              <figcaption>
+                写真引用元：UnsplashのKenny Eliasonさんより
+              </figcaption>
             </figure>
             <p class="skill-description">
               ６年間大阪の小中学校にて英語指導を行いました。
@@ -77,7 +87,9 @@
                 height="200px"
                 width="300px"
               />
-              <figcaption>写真引用元：UnsplashのMiguel Brunaさんより</figcaption>
+              <figcaption>
+                写真引用元：UnsplashのMiguel Brunaさんより
+              </figcaption>
             </figure>
             <p class="skill-description">
               人と接することが苦手なだからパソコンで作業するばかりで良いと思っている人もいると思いますが、
@@ -87,9 +99,7 @@
           </div>
 
           <h3>コーディング</h3>
-          <p class="skill-description">
-            学習したプログラミング言語
-          </p>
+          <p class="skill-description">学習したプログラミング言語</p>
           <div class="coding-skill container px-4 py-5" id="featured-3">
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
               <div class="col">
@@ -123,7 +133,7 @@
                 <p>
                   1年。基本的なコーディングは問題ありません。
                   チュートリアルに沿ってLPのデザインのカスタマイズやCSSアートの作成経験あり。
-                  Bootstrap利用経験あり。  
+                  Bootstrap利用経験あり。
                 </p>
               </div>
               <div class="col">
@@ -147,8 +157,8 @@
         </div>
         <hr />
         <div class="contact-me">
-          <h2>お問い合わせ</h2>
-          
+          <h2 id="contact">お問い合わせ</h2>
+
           <form
             action="mailto:wang.chance.works@gmail.com"
             method="post"
@@ -157,7 +167,11 @@
             Name:<br />
             <input type="text" name="name" placeholder="お名前" /><br />
             Email:<br />
-            <input type="email" name="email" placeholder="メールアドレス" /><br />
+            <input
+              type="email"
+              name="email"
+              placeholder="メールアドレス"
+            /><br />
             Message:<br />
             <textarea
               name="body"
